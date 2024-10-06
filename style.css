@@ -7,4 +7,66 @@ body {
   height: 100vh;
   width: 100vw;
   font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+  background: rgb(246, 246, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 246, 246, 1) 0%,
+    rgba(213, 213, 213, 1) 100%
+  );
+}
+
+.login-div {
+  background-color: #ecf0f3;
+  width: 430px;
+  height: 650px;
+  border-radius: 15px;
+  padding: 50px 35px 35px 35px;
+  -webkit-box-shadow: 13px 13px 20px 0px #cbced1, -13px -13px 20px 0px #ffffff;
+  box-shadow: 13px 13px 20px 0px #cbced1, -13px -13px 20px 0px #ffffff;
+}
+
+.logo {
+  background: url('./logo.jpg');
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-size: contain;
+  margin: 0 auto;
+  box-shadow: 0px 0px 0px 3px #d4e0ea, 0px 0px 5px #5f5f5f,
+    -9px -9px 15px #ffffff, 9px 9px 15px #afaaa7;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 24px;
+}
+
+.fields {
+  width: 100%;
+  margin: 75px 5px 5px 5px;
+}
+
+.fields input {
+  border: none;
+  background: none;
+  font-size: 18px;
+  padding: 20px 10px 20px 5px;
+}
+
+.username,
+.password {
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px #cbced1, -8px -8px 8px #fff;
+}
+
+.fields div i {
+  font-size: 22px;
+  margin: 0 10px -6px 25px;
 }
