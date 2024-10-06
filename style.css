@@ -49,7 +49,7 @@ body {
 
 .fields {
   width: 100%;
-  margin: 75px 5px 5px 5px;
+  margin: 40px 5px 5px 5px;
 }
 
 .fields input {
@@ -104,4 +104,54 @@ body {
   text-decoration: none;
   color: #aaa;
   font-size: 17px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 25px;
+}
+
+.social {
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 8px 8px 8px #cbced1, -8px -8px 8px #fff;
+  transition: all linear 0.2s;
+}
+
+.social a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.social i {
+  color: #555;
+}
+
+.social:hover {
+  cursor: pointer;
+}
+
+.github:hover {
+  background-color: #555;
+}
+.github:hover i {
+  color: #fff;
+}
+
+.instagram:hover {
+  background: #ee2a7b;
+}
+
+.instagram:hover i {
+  color: #fff;
+}
+
+.email:hover i {
+  color: #fff;
+}
+
+.email:hover {
+  background-color: #02c8db;
 }
