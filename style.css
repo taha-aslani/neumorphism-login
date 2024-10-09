@@ -83,7 +83,7 @@ body {
   font-weight: 700;
   color: #ffffff;
   box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
-  transition: all linear 0.2s;
+  transition: background linear 0.2s;
 }
 
 .login-button:hover {
@@ -117,7 +117,7 @@ body {
   padding: 10px;
   border-radius: 50%;
   box-shadow: 8px 8px 8px #cbced1, -8px -8px 8px #fff;
-  transition: all linear 0.2s;
+  transition: background linear 0.2s;
 }
 
 .social a {
@@ -127,6 +127,7 @@ body {
 
 .social i {
   color: #555;
+  transition: color linear 0.18s;
 }
 
 .social:hover {
@@ -141,7 +142,7 @@ body {
 }
 
 .instagram:hover {
-  background: #ee2a7b;
+  background-color: #ee2a7b;
 }
 
 .instagram:hover i {
